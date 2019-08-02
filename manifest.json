@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Funimation Full Screen",
+    "version": "0.1",
+    "content_scripts":[
+        {
+            "matches":[
+                "https://www.funimation.com/shows/*", "http://www.funimation.com/shows/*"
+            ],
+            "js":["script.js"]
+        }
+    ],
+    "browser_action":{
+        "default_icon": "icon.png"
+    }
+}
